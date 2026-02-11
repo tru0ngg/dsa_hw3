@@ -105,6 +105,7 @@ class SafeQueue{
 int main() {
         SafeQueue<string> words;
         bool quit = false;
+        cout << "Enter SafeQueue Commands" << endl;
         while (!quit) {
                 string cmd = "quit";
                 cin >> cmd;
